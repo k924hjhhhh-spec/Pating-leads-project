@@ -1,6 +1,6 @@
 # Painting Leads — 100-Task Execution Roadmap
 
-Status: Tasks 1–28 and 30–52 completed; Task 29 remains pending for real media upload; Task 53 next.
+Status: Tasks 1–28 and 30–57 completed; Task 29 remains pending for real media upload; Task 58 next.
 Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → RYAN 3 → LUCAS 4 → JACK 5 → LEO 6 → ETHAN 7 → SAM 8.
 
 ## Foundation and audit
@@ -66,11 +66,11 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 ## LUCAS 4 — Contractor Matching
 51. ✅ Define contractor eligibility requirements.
 52. ✅ Create contractor profile schema.
-53. Add service-area matching.
-54. Add specialty matching.
-55. Add capacity and availability matching.
-56. Add license/insurance verification fields.
-57. Add quality and response scoring.
+53. ✅ Add service-area matching.
+54. ✅ Add specialty matching.
+55. ✅ Add capacity and availability matching.
+56. ✅ Add license/insurance verification fields.
+57. ✅ Add quality and response scoring.
 58. Build ranked contractor selection.
 59. Add conflict and exclusion rules.
 60. Connect matches to JACK.
@@ -136,5 +136,6 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 - Tasks 46–49 — Completed: structured RYAN job-card contract, customer-safe estimate wording, internal notes/evidence fields, and automated tests.
 - Task 50 — Completed: RYAN job card is passed to LUCAS 4 matching in boss.py.
 - Tasks 51–52 — Completed: contractor eligibility rules and profile schema added.
-- Task 53 — Next: service-area matching.
+- Tasks 53–57 — Completed: deterministic area, specialty, capacity, verification, quality, and response matching rules with tests.
+- Task 58 — Next: ranked contractor selection.
 - User-dependent tasks will be marked **BLOCKED — USER REQUIRED** and skipped temporarily.
