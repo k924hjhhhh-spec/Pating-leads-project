@@ -1,6 +1,6 @@
 # Painting Leads — 100-Task Execution Roadmap
 
-Status: Tasks 1–28 and 30–45 completed; Task 29 remains pending for real media upload; Task 46 next.
+Status: Tasks 1–28 and 30–49 completed; Task 29 remains pending for real media upload; Task 50 next.
 Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → RYAN 3 → LUCAS 4 → JACK 5 → LEO 6 → ETHAN 7 → SAM 8.
 
 ## Foundation and audit
@@ -57,10 +57,10 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 43. ✅ Add prep/repair factors.
 44. ✅ Add material and access factors.
 45. ✅ Add estimate confidence level.
-46. Generate structured job card.
-47. Add customer-facing estimate message.
-48. Add internal notes and evidence links.
-49. Add estimate tests.
+46. ✅ Generate structured job card.
+47. ✅ Add customer-facing estimate message.
+48. ✅ Add internal notes and evidence links.
+49. ✅ Add estimate tests.
 50. Connect job card to LUCAS.
 
 ## LUCAS 4 — Contractor Matching
@@ -133,5 +133,5 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 - Tasks 37–39 — Completed: human-review queue, standardized rejection reasons, and qualification/review tests added.
 - Task 40 — Completed: boss.py now passes MAX 2 output into RYAN 3 job-card generation.
 - Tasks 41–45 — Completed: configurable internal estimate calculator with prep/access/material factors and low-confidence safeguards.
-- Task 46 — Next: generate structured job card.
+- Tasks 46–49 — Completed: structured RYAN job-card contract, customer-safe estimate wording, internal notes/evidence fields, and automated tests.
 - User-dependent tasks will be marked **BLOCKED — USER REQUIRED** and skipped temporarily.
