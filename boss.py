@@ -2,6 +2,7 @@
 from agents import Agent, Runner
 from agent import run_intake
 from qualification import qualify_lead
+from estimation import create_job_card
 
 LEY_INSTRUCTIONS = """
 You are LEY, the AI boss for the Painting Leads project.
@@ -45,6 +46,7 @@ def run_ley(customer_message: str) -> str:
     """Run ALEX intake, MAX qualification, then let LEY coordinate the result."""
     intake_summary = run_intake(customer_message)
     qualification_report = qualify_lead(intake_summary)
+    job_card = create_job_card(\n        "INTAKE:\\n" + intake_summary + "\\n\\nQUALIFICATION:\\n" + qualification_report\n    )
     briefing = (
         "ALEX 1 INTAKE:\n" + intake_summary +
         "\n\nMAX 2 QUALIFICATION:\n" + qualification_report
