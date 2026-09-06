@@ -1,6 +1,6 @@
 # Painting Leads — 100-Task Execution Roadmap
 
-Status: Tasks 1–28 and 30–62 completed; Task 29 remains pending for real media upload; Task 63 next.
+Status: Tasks 1–28 and 30–72 completed; Task 29 remains pending for real media upload; Task 73 next.
 Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → RYAN 3 → LUCAS 4 → JACK 5 → LEO 6 → ETHAN 7 → SAM 8.
 
 ## Foundation and audit
@@ -78,18 +78,18 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 ## JACK 5 — Job Distribution
 61. ✅ Define distribution order and timing.
 62. ✅ Build contractor offer message.
-63. Add accept/pass response handling.
-64. Add offer expiration.
-65. Add duplicate-offer prevention.
-66. Add contractor notification templates.
-67. Add distribution audit log.
-68. Add escalation when no contractor accepts.
-69. Add distribution tests.
-70. Connect accepted jobs to LEO.
+63. ✅ Add accept/pass response handling.
+64. ✅ Add offer expiration.
+65. ✅ Add duplicate-offer prevention.
+66. ✅ Add contractor notification templates.
+67. ✅ Add distribution audit log.
+68. ✅ Add escalation when no contractor accepts.
+69. ✅ Add distribution tests.
+70. ✅ Connect accepted jobs to LEO.
 
 ## LEO 6 — Scheduling
-71. Define appointment status model.
-72. Add contractor availability capture.
+71. ✅ Define appointment status model.
+72. ✅ Add contractor availability capture.
 73. Add homeowner scheduling preferences.
 74. Build appointment confirmation flow.
 75. Add reschedule and cancellation flow.
