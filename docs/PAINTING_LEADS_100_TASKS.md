@@ -1,6 +1,6 @@
 # Painting Leads — 100-Task Execution Roadmap
 
-Status: Tasks 1–20 completed; Task 21 implemented; Task 29 remains for real media upload; Task 37 next.
+Status: Tasks 1–28 and 30–45 completed; Task 29 remains pending for real media upload; Task 46 next.
 Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → RYAN 3 → LUCAS 4 → JACK 5 → LEO 6 → ETHAN 7 → SAM 8.
 
 ## Foundation and audit
@@ -46,17 +46,17 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 34. ✅ Add project-value qualification.
 35. ✅ Add urgency and timeline scoring.
 36. ✅ Add spam/duplicate detection.
-37. Add human-review queue.
-38. Add lead rejection reasons.
-39. Add qualification tests.
-40. Connect qualified output to RYAN.
+37. ✅ Add human-review queue.
+38. ✅ Add lead rejection reasons.
+39. ✅ Add qualification tests.
+40. ✅ Connect qualified output to RYAN.
 
 ## RYAN 3 — Estimation and Job Card
-41. Define pricing assumptions by service.
-42. Build preliminary estimate calculator.
-43. Add prep/repair factors.
-44. Add material and access factors.
-45. Add estimate confidence level.
+41. ✅ Define pricing assumptions by service.
+42. ✅ Build preliminary estimate calculator.
+43. ✅ Add prep/repair factors.
+44. ✅ Add material and access factors.
+45. ✅ Add estimate confidence level.
 46. Generate structured job card.
 47. Add customer-facing estimate message.
 48. Add internal notes and evidence links.
@@ -130,5 +130,8 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 - Task 29 — Pending: real photo/video upload storage and consent flow.
 - Tasks 31–35 — Completed: MAX 2 scoring rubric and qualification rules documented.
 - Task 36 — Completed: duplicate detection helper and tests added.
-- Task 37 — Next: create human-review queue.
+- Tasks 37–39 — Completed: human-review queue, standardized rejection reasons, and qualification/review tests added.
+- Task 40 — Completed: boss.py now passes MAX 2 output into RYAN 3 job-card generation.
+- Tasks 41–45 — Completed: configurable internal estimate calculator with prep/access/material factors and low-confidence safeguards.
+- Task 46 — Next: generate structured job card.
 - User-dependent tasks will be marked **BLOCKED — USER REQUIRED** and skipped temporarily.
