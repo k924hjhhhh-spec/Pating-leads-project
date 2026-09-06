@@ -1,6 +1,6 @@
 # Painting Leads — 100-Task Execution Roadmap
 
-Status: Tasks 1–10 completed; Task 11 next.
+Status: Tasks 1–20 completed; Task 21 next.
 Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → RYAN 3 → LUCAS 4 → JACK 5 → LEO 6 → ETHAN 7 → SAM 8.
 
 ## Foundation and audit
@@ -16,16 +16,16 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 10. ✅ Document rollback and recovery procedure.
 
 ## Core data model
-11. Define homeowner lead schema.
-12. Define property schema.
-13. Define project-scope schema.
-14. Define photo/video attachment schema.
-15. Define qualification result schema.
-16. Define estimate schema.
-17. Define job-card schema.
-18. Define contractor schema.
-19. Define distribution/response schema.
-20. Define payment and outcome schema.
+11. ✅ Define homeowner lead schema.
+12. ✅ Define property schema.
+13. ✅ Define project-scope schema.
+14. ✅ Define photo/video attachment schema.
+15. ✅ Define qualification result schema.
+16. ✅ Define estimate schema.
+17. ✅ Define job-card schema.
+18. ✅ Define contractor schema.
+19. ✅ Define distribution/response schema.
+20. ✅ Define payment and outcome schema.
 
 ## ALEX 1 — Customer Intake
 21. Build intake landing-page form.
@@ -124,6 +124,6 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 100. Launch MVP and establish weekly optimization loop.
 
 ## Execution log
-- Tasks 1–10 — Completed on 2026-09-06.
-- Task 11 — Next: define the homeowner lead schema.
+- Tasks 1–20 — Completed on 2026-09-06.
+- Task 21 — Next: build the intake landing-page form.
 - User-dependent tasks will be marked **BLOCKED — USER REQUIRED** and skipped temporarily.
