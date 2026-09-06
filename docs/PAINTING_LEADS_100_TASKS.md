@@ -1,6 +1,6 @@
 # Painting Leads — 100-Task Execution Roadmap
 
-Status: Tasks 1–28 and 30–49 completed; Task 29 remains pending for real media upload; Task 50 next.
+Status: Tasks 1–28 and 30–52 completed; Task 29 remains pending for real media upload; Task 53 next.
 Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → RYAN 3 → LUCAS 4 → JACK 5 → LEO 6 → ETHAN 7 → SAM 8.
 
 ## Foundation and audit
@@ -61,11 +61,11 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 47. ✅ Add customer-facing estimate message.
 48. ✅ Add internal notes and evidence links.
 49. ✅ Add estimate tests.
-50. Connect job card to LUCAS.
+50. ✅ Connect job card to LUCAS.
 
 ## LUCAS 4 — Contractor Matching
-51. Define contractor eligibility requirements.
-52. Create contractor profile schema.
+51. ✅ Define contractor eligibility requirements.
+52. ✅ Create contractor profile schema.
 53. Add service-area matching.
 54. Add specialty matching.
 55. Add capacity and availability matching.
@@ -134,4 +134,7 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 - Task 40 — Completed: boss.py now passes MAX 2 output into RYAN 3 job-card generation.
 - Tasks 41–45 — Completed: configurable internal estimate calculator with prep/access/material factors and low-confidence safeguards.
 - Tasks 46–49 — Completed: structured RYAN job-card contract, customer-safe estimate wording, internal notes/evidence fields, and automated tests.
+- Task 50 — Completed: RYAN job card is passed to LUCAS 4 matching in boss.py.
+- Tasks 51–52 — Completed: contractor eligibility rules and profile schema added.
+- Task 53 — Next: service-area matching.
 - User-dependent tasks will be marked **BLOCKED — USER REQUIRED** and skipped temporarily.
