@@ -54,3 +54,19 @@ def audit_event(job_id: str, event: str, actor: str) -> dict:
     if not all(value.strip() for value in (job_id,event,actor)):
         raise ValueError("job_id, event, and actor are required")
     return {"job_id":job_id,"event":event,"actor":actor,"mode":"internal_audit"}
+
+
+def escalate_no_acceptance(offer_statuses: list[str]) -> dict:
+    if not offer_statuses:
+        return {"action": "escalate", "reason": "no_offers_created"}
+    if any(status == "accepted" for status in offer_statuses):
+        return {"action": "schedule", "reason": "offer_accepted"}
+    if all(status in {"passed", "expired"} for status in offer_statuses):
+        return {"action": "escalate", "reason": "no_contractor_accepted"}
+    return {"action": "wait", "reason": "offers_pending"}
+
+
+def handoff_to_scheduling(offer: OfferRecord) -> dict:
+    if offer.status != "accepted":
+        raise ValueError("only accepted offers can enter scheduling")
+    return {"job_id": offer.job_id, "contractor_id": offer.contractor_id, "next_worker": "LEO 6", "status": "scheduling_requested"}
