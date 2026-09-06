@@ -43,12 +43,26 @@ ley = Agent(
 )
 
 def run_ley(customer_message: str) -> str:
-    """Run ALEX intake, MAX qualification, then let LEY coordinate the result."""
+    """Run ALEX intake, MAX qualification, RYAN job card, then let LEY coordinate."""
     intake_summary = run_intake(customer_message)
     qualification_report = qualify_lead(intake_summary)
-    job_card = create_job_card(\n        "INTAKE:\\n" + intake_summary + "\\n\\nQUALIFICATION:\\n" + qualification_report\n    )
+    job_card = create_job_card(
+        "INTAKE:
+" + intake_summary + "
+
+QUALIFICATION:
+" + qualification_report
+    )
     briefing = (
-        "ALEX 1 INTAKE:\n" + intake_summary +
-        "\n\nMAX 2 QUALIFICATION:\n" + qualification_report
+        "ALEX 1 INTAKE:
+" + intake_summary +
+        "
+
+MAX 2 QUALIFICATION:
+" + qualification_report +
+        "
+
+RYAN 3 JOB CARD:
+" + job_card
     )
     return Runner.run_sync(ley, briefing).final_output
