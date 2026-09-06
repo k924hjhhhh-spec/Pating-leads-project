@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Painting Leads · Cozyla Command Board</title>
+<style>
+:root{--ink:#202433;--muted:#788091;--line:#e9ebf1;--blue:#5b6fe8;--lav:#eef0ff;--pink:#f7e8ee;--green:#dff5e9;--yellow:#fff1c9}
+*{box-sizing:border-box}body{margin:0;background:#f5f6f9;color:var(--ink);font-family:Inter,Arial,sans-serif}main{max-width:1350px;margin:auto;padding:26px}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}.brand{font-size:24px;font-weight:800}.sub{font-size:13px;color:var(--muted);margin-top:4px}.actions{display:flex;gap:10px}.pill{padding:10px 14px;border:1px solid var(--line);border-radius:12px;background:white;color:var(--muted)}
+.layout{display:grid;grid-template-columns:1.7fr 1fr;gap:20px}.panel{background:white;border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:0 8px 25px #20243308}
+.month{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.month h1{font-size:25px;margin:0}.nav{color:var(--blue);font-size:22px}
+.week,.calendar{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}.week div{font-size:12px;color:var(--muted);text-align:center;padding:7px}.day{min-height:104px;border:1px solid var(--line);border-radius:14px;padding:10px;position:relative}.day em{font-style:normal;font-weight:700;font-size:13px}.muted{opacity:.35}.today{border:2px solid var(--blue);background:#fafbff}.event{font-size:11px;border-radius:8px;padding:5px 6px;margin-top:8px;line-height:1.2}.alex{background:var(--pink)}.max{background:var(--lav)}.ley{background:var(--green)}
+h2{font-size:19px;margin:0 0 16px}.leyhead{display:flex;gap:14px;align-items:center;background:linear-gradient(135deg,#202a51,#5b6fe8);color:white;border-radius:16px;padding:16px}.face{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#9daeff;font-size:27px;font-weight:800}.leyhead small{color:#dce3ff}.command{margin-top:16px;padding:15px;border-radius:14px;background:#f8f9fc}.row{display:flex;justify-content:space-between;gap:10px;padding:12px 0;border-bottom:1px solid var(--line);font-size:14px}.row:last-child{border-bottom:0}.badge{font-size:11px;font-weight:700;padding:5px 8px;border-radius:99px;background:var(--green);white-space:nowrap}.warn{background:var(--yellow)}.full{grid-column:1/-1}.note{color:var(--muted);font-size:13px;line-height:1.5}
+@media(max-width:900px){.layout{grid-template-columns:1fr}.full{grid-column:auto}}@media(max-width:600px){main{padding:14px}.week,.calendar{gap:4px}.day{min-height:78px;padding:6px}.event{font-size:9px}.panel{padding:14px}}
+</style>
+</head>
+<body><main>
+<header><div><div class="brand">Painting Leads</div><div class="sub">Cozyla-style command board · Broward + Palm Beach</div></div><div class="actions"><div class="pill">Today</div><div class="pill">Ley mode</div></div></header>
+<div class="layout">
+<section class="panel"><div class="month"><h1>September 2026</h1><div class="nav">‹ &nbsp; ›</div></div>
+<div class="week"><div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div></div>
+<div class="calendar">
+<div class="day muted"><em>30</em></div><div class="day muted"><em>31</em></div><div class="day"><em>1</em><div class="event ley">Ley: set priorities</div></div><div class="day"><em>2</em><div class="event alex">ALEX: intake flow</div></div><div class="day"><em>3</em><div class="event max">MAX: scoring rules</div></div><div class="day"><em>4</em><div class="event ley">Ley: quality review</div></div><div class="day"><em>5</em></div>
+<div class="day"><em>6</em><div class="event ley">Ley: command review</div></div><div class="day today"><em>7</em><div class="event alex">ALEX: test leads</div><div class="event max">MAX: qualify tests</div></div><div class="day"><em>8</em><div class="event ley">Ley: assign next work</div></div><div class="day"><em>9</em></div><div class="day"><em>10</em><div class="event ley">Ley: report to Wesley</div></div><div class="day"><em>11</em></div><div class="day"><em>12</em></div>
+<div class="day"><em>13</em></div><div class="day"><em>14</em><div class="event alex">ALEX: improve prompts</div></div><div class="day"><em>15</em><div class="event max">MAX: review scores</div></div><div class="day"><em>16</em><div class="event ley">Ley: milestone check</div></div><div class="day"><em>17</em></div><div class="day"><em>18</em></div><div class="day"><em>19</em></div>
+<div class="day"><em>20</em></div><div class="day"><em>21</em></div><div class="day"><em>22</em></div><div class="day"><em>23</em></div><div class="day"><em>24</em></div><div class="day"><em>25</em></div><div class="day"><em>26</em></div>
+<div class="day"><em>27</em></div><div class="day"><em>28</em></div><div class="day"><em>29</em></div><div class="day"><em>30</em></div><div class="day muted"><em>1</em></div><div class="day muted"><em>2</em></div><div class="day muted"><em>3</em></div>
+</div></section>
+<aside class="panel"><div class="leyhead"><div class="face">L</div><div><b>Ley</b><br><small>AI Boss · Internal operations</small></div></div>
+<div class="command"><h2>Today's command</h2><div class="row"><span>Direct ALEX intake testing</span><span class="badge">Active</span></div><div class="row"><span>Review MAX qualification</span><span class="badge">Active</span></div><div class="row"><span>Prepare next worker plan</span><span class="badge warn">Next</span></div><div class="row"><span>Financial actions</span><span class="badge warn">Blocked</span></div></div>
+<div class="command"><h2>What Ley explains</h2><p class="note">Current task, assigned worker, progress, blockers, next command, and anything requiring Wesley's approval.</p></div></aside>
+<section class="panel full"><h2>Worker board</h2><div class="grid"><div class="row"><span><b>ALEX 1</b><br><span class="note">Customer Intake</span></span><span class="badge">Working</span></div><div class="row"><span><b>MAX 2</b><br><span class="note">Qualification & Scoring</span></span><span class="badge">Working</span></div><div class="row"><span><b>RYAN → SAM</b><br><span class="note">Next pipeline workers</span></span><span class="badge warn">Planned</span></div></div></section>
+</div></main></body></html>
