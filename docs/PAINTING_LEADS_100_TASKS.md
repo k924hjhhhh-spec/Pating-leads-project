@@ -1,6 +1,6 @@
 # Painting Leads — 100-Task Execution Roadmap
 
-Status: Tasks 1–20 completed; Task 21 implemented; Task 29 remains for real media upload; Task 31 next.
+Status: Tasks 1–20 completed; Task 21 implemented; Task 29 remains for real media upload; Task 36 remains for duplicate detection; Task 37 next.
 Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → RYAN 3 → LUCAS 4 → JACK 5 → LEO 6 → ETHAN 7 → SAM 8.
 
 ## Foundation and audit
@@ -40,11 +40,11 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 30. ✅ Add consent and privacy language.
 
 ## MAX 2 — Qualification
-31. Define qualification score.
-32. Define minimum lead completeness.
-33. Add service-area qualification.
-34. Add project-value qualification.
-35. Add urgency and timeline scoring.
+31. ✅ Define qualification score.
+32. ✅ Define minimum lead completeness.
+33. ✅ Add service-area qualification.
+34. ✅ Add project-value qualification.
+35. ✅ Add urgency and timeline scoring.
 36. Add spam/duplicate detection.
 37. Add human-review queue.
 38. Add lead rejection reasons.
@@ -128,5 +128,7 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 - Task 21 — Implemented: homeowner intake form added to index.html.
 - Tasks 22–28 and 30 — Implemented in the same form.
 - Task 29 — Pending: real photo/video upload storage and consent flow.
-- Task 31 — Next: define qualification score.
+- Tasks 31–35 — Completed: MAX 2 scoring rubric and qualification rules documented.
+- Task 36 — Pending: implement duplicate detection.
+- Task 37 — Next: create human-review queue.
 - User-dependent tasks will be marked **BLOCKED — USER REQUIRED** and skipped temporarily.
