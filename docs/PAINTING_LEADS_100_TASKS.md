@@ -1,6 +1,6 @@
 # Painting Leads — 100-Task Execution Roadmap
 
-Status: Tasks 1–20 completed; Task 21 next.
+Status: Tasks 1–20 completed; Task 21 implemented; Task 29 remains for real media upload; Task 31 next.
 Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → RYAN 3 → LUCAS 4 → JACK 5 → LEO 6 → ETHAN 7 → SAM 8.
 
 ## Foundation and audit
@@ -28,16 +28,16 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 20. ✅ Define payment and outcome schema.
 
 ## ALEX 1 — Customer Intake
-21. Build intake landing-page form.
-22. Add homeowner contact fields.
-23. Add service-type selection.
-24. Add interior/exterior selection.
-25. Add property location and ZIP validation.
-26. Add rooms/square-footage questions.
-27. Add surface-condition questions.
-28. Add timeline and budget questions.
+21. ✅ Build intake landing-page form.
+22. ✅ Add homeowner contact fields.
+23. ✅ Add service-type selection.
+24. ✅ Add interior/exterior selection.
+25. ✅ Add property location and ZIP validation.
+26. ✅ Add rooms/square-footage questions.
+27. ✅ Add surface-condition questions.
+28. ✅ Add timeline and budget questions.
 29. Add photo/video upload flow.
-30. Add consent and privacy language.
+30. ✅ Add consent and privacy language.
 
 ## MAX 2 — Qualification
 31. Define qualification score.
@@ -125,5 +125,8 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 
 ## Execution log
 - Tasks 1–20 — Completed on 2026-09-06.
-- Task 21 — Next: build the intake landing-page form.
+- Task 21 — Implemented: homeowner intake form added to index.html.
+- Tasks 22–28 and 30 — Implemented in the same form.
+- Task 29 — Pending: real photo/video upload storage and consent flow.
+- Task 31 — Next: define qualification score.
 - User-dependent tasks will be marked **BLOCKED — USER REQUIRED** and skipped temporarily.
