@@ -1,6 +1,6 @@
 # Painting Leads — 100-Task Execution Roadmap
 
-Status: Tasks 1–6 completed; Task 7 next.
+Status: Tasks 1–10 completed; Task 11 next.
 Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → RYAN 3 → LUCAS 4 → JACK 5 → LEO 6 → ETHAN 7 → SAM 8.
 
 ## Foundation and audit
@@ -10,10 +10,10 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 4. ✅ Define data ownership and retention rules.
 5. ✅ Define security and secret-management rules.
 6. ✅ Define acceptance criteria for MVP.
-7. Create staging and production configuration plan.
-8. Add project health/readiness checklist.
-9. Document current Cloudflare deployment settings.
-10. Document rollback and recovery procedure.
+7. ✅ Create staging and production configuration plan.
+8. ✅ Add project health/readiness checklist.
+9. ✅ Document current Cloudflare deployment settings.
+10. ✅ Document rollback and recovery procedure.
 
 ## Core data model
 11. Define homeowner lead schema.
@@ -124,6 +124,6 @@ Scope: Broward + Palm Beach first, then expand. Pipeline: ALEX 1 → MAX 2 → R
 100. Launch MVP and establish weekly optimization loop.
 
 ## Execution log
-- Tasks 1–6 — Completed on 2026-09-06.
-- Task 7 — Next: create staging and production configuration plan.
+- Tasks 1–10 — Completed on 2026-09-06.
+- Task 11 — Next: define the homeowner lead schema.
 - User-dependent tasks will be marked **BLOCKED — USER REQUIRED** and skipped temporarily.
