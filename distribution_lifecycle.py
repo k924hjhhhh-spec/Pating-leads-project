@@ -16,6 +16,8 @@ class OfferRecord:
 def respond_to_offer(offer: OfferRecord, response: str, note: str = "") -> OfferRecord:
     if response not in VALID_RESPONSES:
         raise ValueError("response must be accept or pass")
+    if is_expired(offer):
+        raise ValueError("offer has expired")
     if offer.status != "sent":
         raise ValueError("offer is not awaiting response")
     offer.status = "accepted" if response == "accept" else "passed"
