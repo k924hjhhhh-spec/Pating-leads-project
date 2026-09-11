@@ -17,7 +17,8 @@ class DuplicateSignal:
 
 
 def normalize_contact(value: str) -> str:
-    return re.sub(r"\D", "", value or "")
+    digits = re.sub(r"\D", "", value or "")
+    return digits[1:] if len(digits) == 11 and digits.startswith("1") else digits
 
 
 def normalize_text(value: str) -> str:
