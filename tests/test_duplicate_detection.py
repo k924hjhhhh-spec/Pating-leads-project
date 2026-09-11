@@ -7,6 +7,12 @@ def test_same_phone_is_flagged():
     assert any(signal.field == "phone" for signal in find_duplicate_signals(candidate, existing))
 
 
+def test_us_country_code_is_normalized():
+    candidate = {"phone": "+1 (954) 555-1212", "location": "Pompano Beach", "scope": "interior"}
+    existing = [{"phone": "9545551212", "location": "Pompano Beach", "scope": "interior"}]
+    assert any(signal.field == "phone" for signal in find_duplicate_signals(candidate, existing))
+
+
 def test_same_email_is_flagged():
     candidate = {"email": "OWNER@EXAMPLE.COM", "location": "Boca Raton"}
     existing = [{"email": "owner@example.com", "location": "Boca Raton"}]
